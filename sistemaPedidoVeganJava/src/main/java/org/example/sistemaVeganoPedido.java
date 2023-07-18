@@ -15,16 +15,15 @@ public class sistemaVeganoPedido {
             String prato;
             int calorias;
             String res = "";
-            boolean ehVegano = false;
             char question;
 
             System.out.print("Insira o nome do prato desejado: ");
             prato = ler.next();
 
-            System.out.print("Quantas calorias possui o prato?");
+            System.out.print("Quantas calorias possui o prato: ");
             calorias = ler.nextInt();
 
-            System.out.print("O cliente é vegano? (s/n)");
+            System.out.print("O cliente é vegano? (s/n): ");
             question = (char)System.in.read();
 
             if(question == 's'){
